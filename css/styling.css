@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+html
+{
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.presentation
+{
+    padding: 50px;
+    padding-top: 40px;
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+#head
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#head-logo
+{
+    width: 175px;
+}
+
+#head-button
+{
+    background: white;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 60px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 35px;
+    box-shadow: 0 2px 8px rgba(82, 81, 81, 0.103);
+}
+
+#intro
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#intro-image
+{
+    width: 745px;
+}
+
+#intro-panel
+{
+    padding-right: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#intro-header
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+#intro-button
+{
+    background: hsl(322, 100%, 66%);
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 35px;
+    box-shadow: 0 3px 10px hsl(193, 100%, 96%);
+}

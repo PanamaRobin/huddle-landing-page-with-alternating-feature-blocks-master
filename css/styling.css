@@ -16,6 +16,7 @@ body
 
 .presentation
 {
+    background: hsl(193, 100%, 96%);
     padding: 50px;
     padding-top: 40px;
     background-image: url(/images/bg-hero-desktop.svg);
@@ -79,13 +80,15 @@ body
 {
     background: hsl(322, 100%, 66%);
     font-weight: 700;
-    font-size: 14px;
-    color: white;
+    font-size: 12px;
+    color: hsl(193, 100%, 96%);
     text-decoration: none;
     text-align: center;
+    width: 200px;
     padding: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 35px;
-    box-shadow: 0 3px 10px hsl(193, 100%, 96%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    box-shadow: 0 3px 8px hsl(193, 40%, 91%);
+    margin-top: 15px;
 }
